@@ -34,3 +34,26 @@ const body = document.getElementsByTagName ('body')[0];
 const footer = document.getElementsByTagName('footer')[0];
 
 button.addEventListener('clicl', changeMode);
+
+
+
+
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset=""UTF-8" />
+        <meta http-equi v="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <title> Dark mode and Light Mode</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="page-title">Light Mode ON</h1>
+            <button aria-label="selecionar-modo" id="mode-selector">Dark Mode</button>
+        </main>
+
+        <footer>Basecamp Javascript @ Digital Innovation One</footer>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
